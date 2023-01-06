@@ -1106,6 +1106,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <project path="vendor/shivgadhia" name="platform_vendor_shivgadhia" remote="shivgadhia" revision="mountain_drizzle" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
