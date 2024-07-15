@@ -5,5 +5,6 @@
           fetch="http://github.com/shivgadhia/" />
 
   <project path="vendor/shivgadhia" name="platform_vendor_shivgadhia" remote="shivgadhia" revision="mountain_drizzle" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
 </manifest>
